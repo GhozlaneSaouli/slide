@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f1f1f1;
+}
+.container {
+  max-width: 474px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.slideContainer img {
+  max-width: 100%;
+  display: none;
+}
+
+img.active {
+  display: block;
+}
+
+.containerFlech {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftCont {
+  font-size: 50px;
+  /* margin: 0 15px; */
+  cursor: pointer;
+}
